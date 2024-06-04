@@ -42,8 +42,9 @@ const Home = () => {
 
 				<div className="container card-group mb-5 text-center row-cols-sm-1 row-cols-md-1 row-cols-lg-4 row-cols-xl-4">
 					{
-					seasonsCard.map((seasonSingle)=> {
-						return <Card title={seasonSingle.season} desciption={seasonSingle.text} image={seasonSingle.img}/>
+					seasonsCard.map((seasonSingle, index)=> {
+						return <Card key={index} title={seasonSingle.season} desciption={seasonSingle.text} image={seasonSingle.img}/>
+					
 					})}
 				</div>
 		

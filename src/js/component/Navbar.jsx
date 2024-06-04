@@ -3,7 +3,7 @@ const Navbar = () => {
 	return (
 <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark navbar navbar-dark bg-dark">
   <div className="container">
-    <a classNameName="navbar-brand bg-dark" href="#">Start Bootstrap</a>
+    <a className="navbar-brand bg-dark" href="#">Start Bootstrap</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
