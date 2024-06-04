@@ -36,27 +36,20 @@ const Home = () => {
 	  
 	return (
 		<div>
-
-			<header>
 				<Navbar/>
-			</header>
-
-			<main>
+	
 				<Jumbotron/>
+
 				<div className="container card-group mb-5 text-center row-cols-sm-1 row-cols-md-1 row-cols-lg-4 row-cols-xl-4">
 					{
 					seasonsCard.map((seasonSingle)=> {
 						return <Card title={seasonSingle.season} desciption={seasonSingle.text} image={seasonSingle.img}/>
 					})}
 				</div>
-			</main>
-
-			<footer>
+		
 				<Footer/>	
-			</footer>
 
 		</div>	
-
 	);
 };
 
